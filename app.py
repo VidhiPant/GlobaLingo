@@ -55,7 +55,7 @@ with st.sidebar:
 
 # --- MODE: HOME (English Only) ---
 if app_mode == "🏠 Home":
-    st.title("🏠 Welcome to Globalingo")
+    st.title("🏠 Welcome to GlobaLingo")
     st.markdown("""
     I am your central hub for intelligence. Currently, we are in **Home Mode** (English).
     
