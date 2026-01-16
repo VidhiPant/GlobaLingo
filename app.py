@@ -9,7 +9,7 @@ from langchain_community.vectorstores import Chroma
 # 1. Configuration & API Setup
 API_KEY = st.secrets["OPENAI_API_KEY"]
 os.environ["OPENAI_API_KEY"] = API_KEY
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 PERSIST_DIR = "./nexus_vector_db"
 
 st.set_page_config(page_title="GlobaLingo", page_icon="🌐", layout="wide")
